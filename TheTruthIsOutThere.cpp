@@ -1,6 +1,11 @@
 #include <iostream>
 
-int main()
+//
+//  Created by Matheu on a random september, 2019 day.
+//  May the joy of bitwise guide thy way.
+// 
+
+main()
 {
     bool boolean;
 
@@ -15,6 +20,13 @@ int main()
     std::cout << "1 and 0 = " << (boolean = 1 && 0) << "\n";
     std::cout << "0 and 1 = " << (boolean = 0 && 1) << "\n";
     std::cout << "1 and 1 = " << (boolean = 1 && 1) << "\n" << std::endl;
+
+    std::cout << "XOR (x ^ y): " << "\n";
+    std::cout << "0 xor 0 = " << (boolean = 0 ^ 0) << "\n";
+    std::cout << "1 xor 0 = " << (boolean = 1 ^ 0) << "\n";
+    std::cout << "0 xor 1 = " << (boolean = 0 ^ 1) << "\n";
+    std::cout << "1 xor 1 = " << (boolean = 1 ^ 1) << "\n" << std::endl;
+
 
     std::cout << "False OR False (false | false): " << "\n";
     std::cout << "False or False = " << (boolean = false || false) << "\n";
